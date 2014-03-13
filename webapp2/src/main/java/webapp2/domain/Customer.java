@@ -4,10 +4,7 @@ import java.util.Date;
 
 public class Customer {
 
-	public long customerId;
-	public String name;
-	public String address;
-	public Date createdDate;
+	
 	public long getCustomerId() {
 		return customerId;
 	}
@@ -32,9 +29,8 @@ public class Customer {
 	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
 	}
-	
-	
-	
-	
-	
+	public long customerId;
+	public String name;
+	public String address;
+	public Date createdDate;
 }
